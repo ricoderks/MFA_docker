@@ -16,6 +16,6 @@ Example:
 
 # Start container
 
-`docker run -d --rm -ti -v <path to code folder>:/usr/src/app ricolumc/py_docker`
+`docker run --rm -ti -v <path to code folder>:/usr/src/app ricolumc/py_docker`
 
 You are now in the container. You can use the commands from https://github.com/LocasaleLab/Automated-MFA-2023/blob/main/README.md.
