@@ -9,4 +9,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # set a working directory
 WORKDIR /usr/src/app
 
+ENV PYTHONPATH=/usr/src/app
+
 CMD ["/bin/bash"]
